@@ -1,18 +1,4 @@
 <?php
-SELECT * 
-FROM browse 
-LIMIT 10;
+//SQL, Structured Query Language, is a programming language designed to manage data stored in relational databases. SQL operates through simple, declarative statements. This keeps data accurate and secure, and helps maintain the integrity of databases, regardless of size.
 
-SELECT ROUND(
-   100.0 * COUNT(DISTINCT c.user_id) /
-   COUNT(DISTINCT b.user_id)
- ) AS browse_to_checkout_percent,
- ROUND(
-   100.0 * COUNT(DISTINCT p.user_id) /
-   COUNT(DISTINCT c.user_id)
- ) AS checkout_to_purchase_percent
- FROM browse b
- LEFT JOIN checkout c
- 	ON b.user_id = c.user_id
- LEFT JOIN purchase p
- 	ON c.user_id = p.user_id;
+//The SQL language is widely used today across web frameworks and database applications. Knowing SQL gives you the freedom to explore your data, and the power to make better decisions. By learning SQL, you will also learn concepts that apply to nearly every data storage system.
