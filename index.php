@@ -27,3 +27,11 @@ INSERT INTO celebs (id, name, age) VALUES (4, '  Taylor Swift', 26);
 ALTER TABLE celebs ADD COLUMN twitter_handle TEXT;
 
 SELECT * FROM celebs;
+
+//updating data content with new information
+
+UPDATE celebs
+SET twitter_handle = '@taylorswift13'
+WHERE id = 4;
+
+SELECT * FROM celebs;
