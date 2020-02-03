@@ -35,3 +35,10 @@ SET twitter_handle = '@taylorswift13'
 WHERE id = 4;
 
 SELECT * FROM celebs;
+
+
+//deleting rows and data from table where content matches descriped clause - below we are deleting rows where the content in the column 'twitter_handle' is null/empty
+
+DELETE FROM celebs WHERE twitter_handle IS NULL;
+
+SELECT * FROM celebs;
