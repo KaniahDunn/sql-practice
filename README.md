@@ -13,7 +13,7 @@ A statement is a string of characters that the database recognizes as a valid co
 * ALTER TABLE changes an existing table.
 * UPDATE edits a row in a table.
 * DELETE FROM deletes rows from a table.
-*Constraints add information about how a column can be used* 
+*Constraints add information about how a column can be used*
 
 
 [Manipulation Cheat Sheet](https://www.codecademy.com/learn/learn-sql/modules/learn-sql-manipulation/reference)
