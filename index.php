@@ -66,3 +66,11 @@ SELECT name AS 'Movie Title', imdb_rating AS 'IMDb' FROM movies;
 // SELECT DISTINCT - DISTINCT is used to return unique values in the output. It filters out all duplicate values in the specified column(s).
 
 SELECT DISTINCT genre FROM movies;
+
+//WHERE clause to restrict which data will be queried from the database
+
+SELECT * FROM movies WHERE year > 2014 ;
+
+//LIKE clause - LIKE is a special operator used with the WHERE clause to search for a specific pattern in a column.The _ means you can substitute any individual character here without breaking the pattern. The names Seven and Se7en both match this pattern.
+
+SELECT * FROM movies WHERE name LIKE 'Se_en';
