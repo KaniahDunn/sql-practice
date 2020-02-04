@@ -57,3 +57,8 @@ CREATE TABLE awards (
 
 SELECT * FROM movies;
 SELECT name, genre, year FROM movies;
+
+
+// AS keyword - allows user to query the database and query the columns to rename them as something that is more userfriendly
+
+SELECT name AS 'Movie Title', imdb_rating AS 'IMDb' FROM movies;
