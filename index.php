@@ -74,3 +74,6 @@ SELECT * FROM movies WHERE year > 2014 ;
 //LIKE clause - LIKE is a special operator used with the WHERE clause to search for a specific pattern in a column.The _ means you can substitute any individual character here without breaking the pattern. The names Seven and Se7en both match this pattern.
 
 SELECT * FROM movies WHERE name LIKE 'Se_en';
+
+//like clause with % - the below query pulls all data from the name column that has the word man in it on either the front or back end. the % operator can also be used such as A% which would pull all data that starts with the letter 'A' and %a would pull all data that ends with the letter 'a'. To note that the text that is used along side the % operator is NOT case sensitive
+SELECT * FROM movies WHERE name LIKE '%man%';
