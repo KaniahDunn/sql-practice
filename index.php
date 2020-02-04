@@ -51,3 +51,9 @@ CREATE TABLE awards (
   recipient TEXT NOT NULL,
   award_name TEXT DEFAULT 'Grammy'
 );
+
+
+// Select all vs Select Columns
+
+SELECT * FROM movies;
+SELECT name, genre, year FROM movies;
