@@ -77,3 +77,7 @@ SELECT * FROM movies WHERE name LIKE 'Se_en';
 
 //like clause with % - the below query pulls all data from the name column that has the word man in it on either the front or back end. the % operator can also be used such as A% which would pull all data that starts with the letter 'A' and %a would pull all data that ends with the letter 'a'. To note that the text that is used along side the % operator is NOT case sensitive
 SELECT * FROM movies WHERE name LIKE '%man%';
+
+//IS NULL and IS NOT NULL operator - the query below selects only the titles of movies have an imdb rating that is null
+
+SELECT name FROM movies WHERE imdb_rating IS NULL;
