@@ -62,3 +62,7 @@ SELECT name, genre, year FROM movies;
 // AS keyword - allows user to query the database and query the columns to rename them as something that is more userfriendly
 
 SELECT name AS 'Movie Title', imdb_rating AS 'IMDb' FROM movies;
+
+// SELECT DISTINCT - DISTINCT is used to return unique values in the output. It filters out all duplicate values in the specified column(s).
+
+SELECT DISTINCT genre FROM movies;
