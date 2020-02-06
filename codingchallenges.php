@@ -55,8 +55,7 @@ WHERE health IS NULL;
 //CODING CHALLENGE #7
 // Order the table by title (from A-Z).
 // Select only the title and publisher columns.
-// SELECT title, publisher
-
+SELECT title, publisher
  FROM news
  ORDER BY title ASC;
 
@@ -67,4 +66,11 @@ WHERE health IS NULL;
  //SELECT *
 FROM news
 WHERE title LIKE '%bitcoin%';
+
+
+SELECT *
+FROM news
+WHERE category = 'b'
+ORDER BY timestamp DESC
+LIMIT 20;
  ?>
