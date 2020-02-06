@@ -32,4 +32,13 @@ LIMIT 10;
 SELECT * FROM nomnom
 WHERE cuisine = 'Japanese'
 AND price = '$$';
+
+
+//CODING CHALLENGE #5
+// Your roommate Bevers can’t remember the exact name of a restaurant he went to but he knows it contains the word ‘noodle’ in it.
+// Can you find it for him using a query?
+// Select all the columns.
+SELECT *
+FROM nomnom
+WHERE name LIKE '%noodle%';
  ?>
