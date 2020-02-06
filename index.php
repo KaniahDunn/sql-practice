@@ -87,3 +87,11 @@ SELECT name FROM movies WHERE imdb_rating IS NULL;
 SELECT * FROM movies WHERE name BETWEEN 'D' AND 'G';
 
 SELECT * FROM movies WHERE year BETWEEN 1970 AND 1979;
+
+
+//AND operator
+
+SELECT *
+FROM movies
+WHERE year < 1985
+   AND genre = 'horror';
