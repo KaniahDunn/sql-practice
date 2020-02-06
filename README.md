@@ -33,3 +33,5 @@ Let’s summarize:
 * ORDER BY sorts the result.
 * LIMIT specifies the maximum number of rows that the query will return.
 * CASE creates different outputs.
+
+[SQL Queries](https://www.codecademy.com/learn/learn-sql/modules/learn-sql-queries/reference)
