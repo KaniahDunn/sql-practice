@@ -95,3 +95,11 @@ SELECT *
 FROM movies
 WHERE year < 1985
    AND genre = 'horror';
+
+
+//OR operator
+
+SELECT *
+FROM movies
+WHERE genre = 'romance'
+   OR genre = 'comedy';
