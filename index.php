@@ -103,3 +103,8 @@ SELECT *
 FROM movies
 WHERE genre = 'romance'
    OR genre = 'comedy';
+
+//Sorting data by column and order 
+   SELECT name, year, imdb_rating
+   FROM movies
+   ORDER BY imdb_rating DESC;
