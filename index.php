@@ -81,3 +81,9 @@ SELECT * FROM movies WHERE name LIKE '%man%';
 //IS NULL and IS NOT NULL operator - the query below selects only the titles of movies have an imdb rating that is null
 
 SELECT name FROM movies WHERE imdb_rating IS NULL;
+
+//BETWEEN operator for querying
+
+SELECT * FROM movies WHERE name BETWEEN 'D' AND 'G';
+
+SELECT * FROM movies WHERE year BETWEEN 1970 AND 1979;
