@@ -41,4 +41,12 @@ AND price = '$$';
 SELECT *
 FROM nomnom
 WHERE name LIKE '%noodle%';
+
+
+//Some of the restaurants have not been inspected yet or are currently appealing their health grade score.
+//Find the restaurants that have empty health values.
+//Select all the columns.
+SELECT *
+FROM nomnom
+WHERE health IS NULL;
  ?>
