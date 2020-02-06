@@ -49,4 +49,11 @@ WHERE name LIKE '%noodle%';
 SELECT *
 FROM nomnom
 WHERE health IS NULL;
+
+// Order the table by title (from A-Z).
+// Select only the title and publisher columns.
+// SELECT title, publisher
+
+ FROM news
+ ORDER BY title ASC;
  ?>
