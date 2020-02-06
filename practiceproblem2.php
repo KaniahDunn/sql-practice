@@ -43,6 +43,7 @@ FROM nomnom
 WHERE name LIKE '%noodle%';
 
 
+//CODING CHALLENGE #6
 //Some of the restaurants have not been inspected yet or are currently appealing their health grade score.
 //Find the restaurants that have empty health values.
 //Select all the columns.
@@ -50,10 +51,20 @@ SELECT *
 FROM nomnom
 WHERE health IS NULL;
 
+
+//CODING CHALLENGE #7
 // Order the table by title (from A-Z).
 // Select only the title and publisher columns.
 // SELECT title, publisher
 
  FROM news
  ORDER BY title ASC;
+
+
+ //CODING CHALLENGE #8
+ //Which article names have the word 'bitcoin' in it?
+ //Select all the columns.
+ //SELECT *
+FROM news
+WHERE title LIKE '%bitcoin%';
  ?>
